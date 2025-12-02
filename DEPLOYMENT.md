@@ -23,7 +23,7 @@ This guide will help you deploy your personal website to the internet.
      - **Root Directory**: `backend`
      - **Environment**: `Python 3`
      - **Build Command**: `pip install -r requirements.txt`
-     - **Start Command**: `uvicorn backend:app --host 0.0.0.0 --port $PORT`
+     - **Start Command**: `python -m uvicorn backend:app --host 0.0.0.0 --port $PORT`
      - **Plan**: Free
 
 3. **Add Environment Variables** (if needed):
