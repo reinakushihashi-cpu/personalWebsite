@@ -1,0 +1,66 @@
+/* Replace or expand with your own styles */
+body {
+  margin: 0;
+  font-family: "Courier New", monospace;
+  background: #f5f5f9;
+  color: #111;
+}
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+header {
+  margin-bottom: 30px;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.header-text {
+  flex: 1;
+}
+.header-photo {
+  flex-shrink: 0;
+}
+#profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #444;
+  background-color: #f0f0f0;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 10px 16px;
+  border: none;
+  background: #66376b;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+}
+button:hover {
+  background: #4d2850;
+}
+.about-button {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+}
